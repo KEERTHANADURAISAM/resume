@@ -28,7 +28,7 @@ body{
 }
 .container .left_side{
     position: relative;
-    background:black;
+    background:#173954;
     padding: 40px;
 }
 .profileText{
@@ -38,6 +38,7 @@ body{
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
+    letter-spacing: 1px;
 }
 .profileText .imgBx{
     position: relative;
@@ -70,8 +71,10 @@ body{
 }
 .contactInfo{
     padding-top: 40px;
+    color: whitesmoke;
 
 }
+
 .title{
     color: #fff;
     text-transform: uppercase;
@@ -96,9 +99,10 @@ body{
     color: #03a9f4;
 }
 
-.contactInfo ul li span{
+.contactInfo ul li a{
     color: #fff;
     font-weight: 300;
+    text-decoration: none;
 
 }
 .contactInfo.education li{
@@ -141,14 +145,17 @@ font-weight: 500;
 
 
 
-
+.certificate{
+    text-decoration: none;
+    color:#03a9f4;
+}
 .container .right_side{
     position: relative;
     background: #fff;
     padding: 40px;
 }
 .about{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
 }
 .about:last-child{
@@ -162,7 +169,7 @@ font-weight: 500;
 }
 p{
     color:#333;
-    font-size:large ;
+    font-size:1.1em ;
 }
 .about .box {
     display: flex;
@@ -208,7 +215,7 @@ p{
     top: 0;
     left: 0;
     height: 100%;
-    background: blue;
+    background: #173954;
 }
 .interest ul{
     display: grid;
